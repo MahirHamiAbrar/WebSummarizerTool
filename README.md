@@ -2,6 +2,15 @@
 
 A powerful web search and summarization tool that uses Ollama models to optimize search queries, retrieve web content, and generate comprehensive summaries.
 
+![Homepage image](images/homepage.png)
+
+<details>
+   <summary>Searching fro weather update:</summary>
+
+![Search Query Generation](images/weather-test.png)
+![Search Result](images/weather-test-result.png)
+</details>
+
 ## Features
 
 - **AI-Powered Query Optimization**: Automatically improves your search queries for better results
@@ -131,14 +140,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 1. **No Ollama models found**:
    - Ensure Ollama is running: `ollama serve`
-   - Download a model: `ollama pull llama2`
+   - Download a model: `ollama pull llama3.2:3b`
 
 2. **Search results not loading**:
    - Check internet connection
    - Verify Google search is not blocked
 
 3. **Summarization errors**:
-   - Try a different Ollama model
+   - Try a different Ollama model (you can try `granite3.3:8b`/`gemma3:4b`/`gemma3:8b` models. They're Good for summarization) tasks.
    - Reduce the number of search results
    - Check Ollama logs for errors
 
