@@ -44,7 +44,7 @@ Search Result:
 ### Running the Application
 
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 
 The application will open in your web browser at `http://localhost:8501`.
