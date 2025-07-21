@@ -144,6 +144,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Performance Tips
 
-- Use lighter models (e.g., `llama2:7b`) for faster processing
+- Use lighter models (e.g., `llama3.2:3b`) for faster processing
 - Reduce the number of search results for quicker execution
 - Enable query optimization for better search results
