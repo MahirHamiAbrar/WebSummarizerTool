@@ -1,1 +1,105 @@
-# WebSummarizerTool
+# WebSummarizerTool# WebSummarizerTool
+
+A powerful web search and summarization tool that uses Ollama models to optimize search queries, retrieve web content, and generate comprehensive summaries.
+
+
+<img src="images/homepage.png" height="auto" width=800>
+
+<details>
+   <summary>Searching fro weather update:</summary>
+
+Search Query Generation:
+
+<img src="images/weather-test.png" height="auto" width=500>
+
+
+Search Result:
+
+<img src="images/weather-test-result.png" height="auto" width=500>
+</details>
+
+## Features
+
+- **AI-Powered Query Optimization**: Automatically improves your search queries for better results
+- **Multi-Source Summarization**: Fetches and summarizes content from multiple web sources
+- **Consolidated Summaries**: Combines individual summaries into comprehensive final reports
+- **Multiple Export Formats**: Export results as JSON or Markdown
+- **Configurable Models**: Choose from available Ollama models
+- **User-Friendly Interface**: Built with Streamlit for easy interaction
+
+## Installation
+
+1. **Prerequisites**:
+   - Python 3.10 or higher
+   - [Ollama](https://ollama.ai/) installed and running
+   - At least one Ollama model downloaded (e.g., `ollama pull llama3.2:3b`)
+
+2. **Install the package**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+### Running the Application
+
+```bash
+streamlit run main.py
+```
+
+The application will open in your web browser at `http://localhost:8501`.
+
+### Using the Interface
+
+1. **Select Model**: Choose from available Ollama models in the sidebar
+2. **Configure Search**: Set number of results and search options
+3. **Enter Query**: Type your search query in the main input field
+4. **Review Results**: View individual summaries and the final consolidated summary
+5. **Export Results**: Download results in JSON or Markdown format
+
+## Project Structure
+
+```
+WebSummarizerTool/
+├── app.py              # summarizer app
+├── requirements.txt    # project dependencies
+├── README.md
+├── .gitignore
+└── drafter/            # ignore (not relevant)
+    ├── ...
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Troubleshooting
+
+### Common Issues
+
+1. **No Ollama models found**:
+   - Ensure Ollama is running: `ollama serve`
+   - Download a model: `ollama pull llama3.2:3b`
+
+2. **Search results not loading**:
+   - Check internet connection
+   - Verify Google search is not blocked
+
+3. **Summarization errors**:
+   - Try a different Ollama model (you can try `granite3.3:8b`/`gemma3:4b`/`gemma3:8b` models. They're Good for summarization) tasks.
+   - Reduce the number of search results
+   - Check Ollama logs for errors
+
+### Performance Tips
+
+- Use lighter models (e.g., `llama3.2:3b`) for faster processing
+- Reduce the number of search results for quicker execution
+- Enable query optimization for better search results
