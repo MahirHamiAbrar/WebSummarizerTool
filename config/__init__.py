@@ -1,0 +1,21 @@
+"""Configuration package for WebSummarizerTool."""
+
+from .settings import (
+    SINGLE_WEBPAGE_SUMMARY_PROMPT,
+    GOOGLE_SEARCH_QUERY_GEN_PROMPT,
+    FINAL_SUMMARY_PROMPT,
+    APP_CONFIG,
+    DEFAULT_SETTINGS,
+    SEARCH_CONFIG,
+    LLM_CONFIG
+)
+
+__all__ = [
+    'SINGLE_WEBPAGE_SUMMARY_PROMPT',
+    'GOOGLE_SEARCH_QUERY_GEN_PROMPT', 
+    'FINAL_SUMMARY_PROMPT',
+    'APP_CONFIG',
+    'DEFAULT_SETTINGS',
+    'SEARCH_CONFIG',
+    'LLM_CONFIG'
+]
