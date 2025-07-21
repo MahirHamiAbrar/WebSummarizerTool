@@ -2,13 +2,19 @@
 
 A powerful web search and summarization tool that uses Ollama models to optimize search queries, retrieve web content, and generate comprehensive summaries.
 
-![Homepage image](images/homepage.png)
+
+<img src="images/homepage.png" height="auto" width=800>
 
 <details>
    <summary>Searching fro weather update:</summary>
 
-![Search Query Generation](images/weather-test.png)
-![Search Result](images/weather-test-result.png)
+Search Query Generation:
+<img src="images/weather-test.png" height="auto" width=500>
+
+
+Search Result:
+
+<img src="images/weather-test-result.png" height="auto" width=500>
 </details>
 
 ## Features
