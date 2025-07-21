@@ -9,6 +9,7 @@ A powerful web search and summarization tool that uses Ollama models to optimize
    <summary>Searching fro weather update:</summary>
 
 Search Query Generation:
+
 <img src="images/weather-test.png" height="auto" width=500>
 
 
